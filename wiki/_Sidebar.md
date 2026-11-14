@@ -2,7 +2,7 @@
 
 - [Home](Home)
 
-**Using it**
+**How to use it**
 - [Installation](Installation)
 - [Command line](Command-Line)
 - [Output format](Output-Format)
@@ -14,4 +14,4 @@
 
 **Evaluation**
 - [Naming evaluation: results](Naming-Evaluation)
-- [Re-run it with another model](Judging-With-Another-Model)
+- [Judging with another model](Judging-With-Another-Model)

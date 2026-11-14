@@ -1,129 +1,163 @@
 # Judging with another model
 
-The results on [Naming evaluation](Naming-Evaluation) rest on one judge: Claude, which
-also built the tool. This page is how to have a different model (or a person) redo the
-judging without seeing those verdicts, and compare.
+The results on [Naming evaluation](Naming-Evaluation) come from one judge: Claude, which
+also made the tool. This page tells you how to use a different judge (a model or a
+person). The new judge gives its verdicts without the first verdicts. Then you compare the
+two.
 
-You need a model that can read images and a few minutes per sheet. No code runs on the
-judge's side.
+The judge must be able to read images. The work takes some minutes for each sheet. The
+judge does not run code.
 
-## What the judge gets, and what it must not get
+## Before you start
 
-Give it:
+The page images (`eval/naming/pages/`) and the example output (`examples/`) are not in the
+repository, because they contain art that other persons made. Thus you need a copy of the
+project that has the `examples/` folder. Without that folder, you cannot do this
+procedure.
 
-| File | Why |
+## What to give to the judge
+
+Give these items to the judge:
+
+| File | Function |
 |---|---|
 | `eval/naming/JUDGE_PROMPT.md` | The instructions and the answer format |
-| `eval/naming/names.csv` | One row per sprite with five candidate names under letters A to E |
-| `eval/naming/pages/<sheet>_<n>.png` | The sprites, enlarged, each under its id |
-| `examples/<sheet>/overlay.png` (optional) | The whole sheet, for context |
+| `eval/naming/names.csv` | One row for each sprite, with five names under the letters A to E |
+| `eval/naming/pages/<sheet>_<n>.png` | The sprites at a larger size, each with its id |
+| `examples/<sheet>/overlay.png` (optional) | The full sheet, for context |
 
-Keep back:
+Do not give these items to the judge:
 
-| File | Why |
+| File | Reason |
 |---|---|
-| `eval/naming/key.json` | Says which letter is which method |
-| `eval/naming/methods.json` | The same information |
-| `eval/naming/verdicts_claude.csv` | The first judge's answers |
-| The wiki's results page | States the expected outcome |
+| `eval/naming/key.json` | It shows the method for each letter |
+| `eval/naming/methods.json` | It shows the same data |
+| `eval/naming/verdicts_claude.csv` | It contains the answers of the first judge |
+| The results page of the wiki | It gives the expected result |
 
-If the judge is an agent with access to the repository, copy the four allowed items into
-an empty folder and point it there instead.
+If the judge is an agent that can read the repository, copy the four permitted items into
+an empty folder. Then let the agent read only that folder.
 
-## Steps
+## Procedure
 
-### 1. Rebuild the pack (only if the examples changed)
+### 1. Make the pack again (only if the examples changed)
 
 ```bash
 python eval/naming/build_pack.py
 ```
 
-### 2. Run the judge, one sheet at a time
+### 2. Use the judge on one sheet at a time
 
-Start a new conversation for each sheet, so the judge is not carrying 265 rows at once.
+Start a new conversation for each sheet. Thus the judge does not hold 265 rows at the same
+time.
 
 1. Paste the contents of `JUDGE_PROMPT.md`.
-2. Attach that sheet's page images: `furniture_1.png` and `furniture_2.png`; `town_1.png`
-   and `town_2.png`; `apocalypse_1.png` to `apocalypse_4.png`.
-3. Paste that sheet's rows of `names.csv`, including the header line.
+2. Attach the page images of that sheet:
+   - `furniture_1.png` and `furniture_2.png`
+   - `town_1.png` and `town_2.png`
+   - `apocalypse_1.png` to `apocalypse_4.png`
+3. Paste the rows of that sheet from `names.csv`. Include the header line.
 4. Ask for the CSV.
 
-For the apocalypse sheet (159 rows) it is safer to go page by page: the `page` column of
-`names.csv` says which rows belong to which image.
+The apocalypse sheet has 159 rows. For this sheet, it is safer to give one page at a time.
+The `page` column of `names.csv` shows the image for each row.
 
 ### 3. Save the answers
 
-Join the three replies into one file, with a single header line:
+1. Put the three replies into one file with only one header line:
 
 ```
 eval/naming/verdicts_<model>.csv
 ```
 
-Check that it has 265 rows and that no row was skipped or invented. `score.py` ignores
-rows it cannot read, so a short file gives a quietly smaller sample.
+2. Make sure that the file has 265 rows.
+3. Make sure that the judge did not omit rows or add rows.
 
-### 4. Score it against the first judge
+`score.py` ignores rows that it cannot read. Thus a file with missing rows gives a smaller
+sample and no warning.
+
+### 4. Compare the file with the first judge
 
 ```bash
 python eval/naming/score.py eval/naming/verdicts_<model>.csv eval/naming/verdicts_claude.csv
 ```
 
-This prints, for each judge, how many names each method got right per sheet, and then how
-often the two judges made the same call on the assets both of them judged.
+For each judge, the script shows the number of correct names for each method and each
+sheet. Then it shows how frequently the two judges gave the same verdict. This part uses
+only the assets that have a verdict from each of the two judges.
 
-## Reading the comparison
+## How to read the comparison
 
-The two judges will not match exactly, and should not be expected to:
+The two judges will not agree fully. There are two causes:
 
-- The first judge used only `yes` and `no`. The prompt gives the new judge `partial` as
-  well. `score.py` prints a strict count (`yes` only) and, in brackets, a lenient one
-  (`partial` counts half). Compare the first judge's numbers with both.
-- The first judge marked 73 assets `unclear`. A new judge may set that line elsewhere,
-  which changes the sample. The last line of the output says how many assets only one
-  judge scored.
+- The first judge used only `yes` and `no`. The prompt also gives `partial` to the new
+  judge. `score.py` shows a strict number (`yes` only). In brackets, it shows a second
+  number, where `partial` has the value of one half. Compare the numbers of the first
+  judge with the two numbers.
+- The first judge gave `unclear` to 73 assets. A new judge can use a different limit,
+  which changes the sample. The last line of the output shows how many assets have a
+  verdict from only one judge.
 
-What to look for:
+Look for the answers to these questions:
 
 | Question | Where to look |
 |---|---|
-| Is the ranking of methods the same? | The TOTAL row of each table. The first judge has `combined` and `clip-vit-h14` on top, `minicpm-v` and `clip-vit-l14` at the bottom |
-| Is the per-sheet pattern the same? | minicpm-v best on town, CLIP ViT-H/14 best on apocalypse, CLIP ViT-L/14 best on furniture |
-| Do the judges agree asset by asset? | The agreement block. Below about 80% on a method means the two are reading the sprites or the rule differently, and the individual rows are worth a look |
-| Was the first judge too generous to its own build? | Compare the `combined` column between judges with the others. A drop that only `combined` shows would be the sign |
+| Is the sequence of the methods the same? | The TOTAL row of each table. For the first judge, `combined` and `clip-vit-h14` are the best. `minicpm-v` and `clip-vit-l14` are the worst |
+| Is the pattern on each sheet the same? | For the first judge, minicpm-v is the best on town, CLIP ViT-H/14 on apocalypse, and CLIP ViT-L/14 on furniture |
+| Do the judges agree on each asset? | The agreement block. A value below approximately 80% for a method shows that the judges read the sprites or the rule differently. Then examine the rows |
+| Did the first judge prefer its own method? | Compare the `combined` column of the two judges with the other columns. A decrease in `combined` only is the sign |
 
-A result that should change your mind: the new judge puts plain `minicpm-v` level with or
-ahead of `combined`, or agrees with the first judge on fewer than about three rows in four.
+Change your opinion of the results if you see one of these:
 
-## Going further
+- The new judge gives plain `minicpm-v` the same score as `combined`, or a better score.
+- The two judges agree on fewer than approximately three rows in four.
 
-**A sheet nobody tuned on.** This is the stronger test, because the 0.6 threshold and the
-override rule were chosen on these three sheets. Run a new sheet both ways:
+## More tests
+
+### A sheet that was not used to set the rule
+
+This test is stronger, because the 0.6 limit and the replacement rule came from these
+three sheets.
+
+1. Run the tool on a new sheet without hints:
 
 ```bash
 python -m spridentity new_sheet.png -o out/plain --unit 16 --labeler ollama --extract
 ```
 
+2. Run the tool on the same sheet with hints:
+
 ```bash
 python -m spridentity new_sheet.png -o out/combined --unit 16 --labeler ollama --hints clip --extract
 ```
 
-`out/combined/assets.json` holds everything needed for all the methods: each asset's
-`second_opinion.vision_model_name` is the hinted minicpm-v name, `guesses[0].name` is CLIP
-ViT-H/14's pick, and `name` is the combined result. Add the sheet to `methods.json` in the
-same shape as the existing entries, put its `assets/` folder under `examples/<sheet>/`,
-and rebuild the pack.
+3. Get the names of the methods. `out/plain/assets.json` gives the plain minicpm-v names.
+   `out/combined/assets.json` gives the other names for each asset:
+   - `second_opinion.vision_model_name` is the minicpm-v name with hints.
+   - `second_opinion.guesses[0].name` is the word from CLIP ViT-H/14.
+   - `name` is the combined result.
+4. Add the sheet to `methods.json`. Use the same structure as the other entries.
+5. Put the `assets/` folder of the sheet in `examples/<sheet>/`.
+6. Make the pack again.
 
-**A different labeler altogether.** To see how a frontier model names the sprites itself,
-rather than judging names:
+### A different labeler
+
+You can also let a frontier model give the names, and not only the verdicts.
+
+1. Run the tool with the `manual` labeler:
 
 ```bash
 python -m spridentity sheet.png --unit 16 --labeler manual
 ```
 
-Each request lands in `label_requests/` as two images, a prompt, a system prompt and a
-JSON schema. Save the model's reply as the matching `passN_NN_response.json` and run the
-command again. Its names can then be added to `methods.json` as one more method.
+2. Find the requests in `label_requests/`. Each request has two images, a prompt, a system
+   prompt and a JSON schema.
+3. Save the reply of the model as the related `passN_NN_response.json` file.
+4. Do the command again.
+5. Add the names to `methods.json` as one more method.
 
-**Boundaries.** This evaluation is about names only. Whether the outlines are right is a
-separate question; `examples/<sheet>/overlay.png` is the picture to judge that from, and
-the known faults are listed under [Limits](Limits).
+### Boundaries
+
+This evaluation is about names only. It does not show that the outlines are correct. To
+examine the outlines, look at `examples/<sheet>/overlay.png`. [Limits](Limits) gives the
+known faults.

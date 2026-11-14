@@ -1,87 +1,109 @@
 # Installation
 
-spridentity needs Python 3.10 or newer.
+spridentity needs Python 3.10 or a later version.
 
 ```bash
 pip install -e .
 ```
 
-That installs the core: `numpy`, `scipy` and `pillow`. It is enough to find and outline
-assets. Naming them needs one of the optional parts below.
+This command installs the core: `numpy`, `scipy` and `pillow`. The core is sufficient to
+find the assets and their outlines. To give names to the assets, install one of the
+optional parts below.
 
-## Local naming with Ollama (free, nothing leaves the machine)
+## Local names with Ollama
+
+This part is free. No data goes out of the computer.
 
 1. Install [Ollama](https://ollama.com).
-2. Pull a vision model once (about 5.5 GB):
+2. Download a vision model one time (approximately 5.5 GB):
 
 ```bash
 ollama pull minicpm-v
 ```
 
-`qwen2.5vl:7b` also works on recent Ollama versions (`--model qwen2.5vl:7b`).
+On recent Ollama versions, `qwen2.5vl:7b` is an alternative (`--model qwen2.5vl:7b`).
 
-## CLIP hints (optional second opinion on names)
+## CLIP hints
+
+This part is optional. It gives a second opinion on the names.
 
 ```bash
 pip install -e .[clip]
 ```
 
-This adds `torch` and `open_clip_torch`. The default model, ViT-H/14 trained on LAION-2B,
-is a download of about 4 GB the first time it is used, unless it is already in your
-Hugging Face cache. A smaller model can be chosen with `--hints-model`; see
-[Naming assets](Naming-Assets).
+This command adds `torch` and `open_clip_torch`.
 
-A working PyTorch install is required. If `python -c "import torch"` fails in your main
-Python, use a separate virtual environment:
+The default model is ViT-H/14 (LAION-2B). The first use downloads approximately 4 GB,
+unless the model is already in your Hugging Face cache. Use `--hints-model` to select a
+smaller model. Refer to [Naming assets](Naming-Assets).
+
+### If PyTorch does not operate in your Python
+
+CLIP hints need a PyTorch installation that operates correctly. If
+`python -c "import torch"` gives an error, use a virtual environment.
+
+1. Make the virtual environment:
 
 ```bash
 python -m venv .venv
 ```
 
+2. Install the tool into it:
+
 ```bash
 .venv/Scripts/pip install -e .[clip]
 ```
 
-(On Linux and macOS the path is `.venv/bin/pip`.)
+On Linux and macOS, the path is `.venv/bin/pip`.
 
-### Using an NVIDIA GPU on Windows
+### How to use an NVIDIA GPU on Windows
 
-On Windows, `pip install torch` gives the CPU-only build, which works but is slow with
-the default model. For the GPU build, install PyTorch from its own index first, then the
-rest:
+On Windows, `pip install torch` installs the CPU version. The CPU version operates
+correctly, but it is slow with the default model.
+
+1. Install the GPU version of PyTorch from the PyTorch index:
 
 ```bash
 .venv/Scripts/pip install torch --index-url https://download.pytorch.org/whl/cu126
 ```
 
+2. Install the tool:
+
 ```bash
 .venv/Scripts/pip install -e .[clip]
 ```
 
-Check it:
+3. Make sure that PyTorch finds the GPU. The command must show `True`:
 
 ```bash
 .venv/Scripts/python -c "import torch; print(torch.cuda.is_available())"
 ```
 
-Then run the tool with that Python (`.venv/Scripts/python -m spridentity ...`). It uses
-the GPU whenever PyTorch can see one; the log line `loading CLIP ... on cuda` confirms it.
-Tested on Windows 11 with an RTX 3080 Laptop (16 GB), with Ollama's minicpm-v loaded at
-the same time.
+4. Use that Python to start the tool (`.venv/Scripts/python -m spridentity ...`).
 
-## Claude API naming
+The tool uses the GPU when PyTorch finds one. The log line `loading CLIP ... on cuda`
+shows that the GPU is in use.
+
+We did a test of this procedure on Windows 11 with an RTX 3080 Laptop GPU (16 GB). The
+minicpm-v model of Ollama was in the GPU memory at the same time.
+
+## Names from the Claude API
 
 ```bash
 pip install -e .[label]
 ```
 
-Credentials come from `ANTHROPIC_API_KEY` or an `ant auth login` profile.
+The credentials come from `ANTHROPIC_API_KEY` or from an `ant auth login` profile.
 
 ## Tests
+
+1. Install the test tools:
 
 ```bash
 pip install -e .[dev]
 ```
+
+2. Do the tests:
 
 ```bash
 python -m pytest -q

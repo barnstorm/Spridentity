@@ -1,16 +1,16 @@
 # Output format
 
-| File | What it is |
+| File | Contents |
 |---|---|
-| `assets.json` | The inventory: one entry per asset, plus groups and analysis notes |
-| `overlay.png` | The sheet with every asset outlined and numbered (`?` = flagged uncertain) |
-| `id_map.png` | 16-bit image; pixel value N belongs to the Nth asset, 0 is background |
+| `assets.json` | The inventory. It has one entry for each asset, the groups and the analysis notes |
+| `overlay.png` | The sheet with an outline and a number on each asset. A `?` shows an uncertain asset |
+| `id_map.png` | A 16-bit image. Pixel value N is the Nth asset. Value 0 is the background |
 | `assets/*.png` | With `--extract`: each asset alone on a transparent canvas |
 
 ## `assets.json`
 
-Top level: `schema_version`, `source` (file name, size, checksum), `analysis`, `summary`,
-`assets`, `groups`.
+The top level has these fields: `schema_version`, `source` (file name, size, checksum),
+`analysis`, `summary`, `assets`, `groups`.
 
 ### One asset
 
@@ -34,39 +34,45 @@ Top level: `schema_version`, `source` (file name, size, checksum), `analysis`, `
   "second_opinion": {
     "model": "ViT-H-14/laion2b_s32b_b79k",
     "guesses": [{"name": "grandfather clock", "score": 0.99}, {"name": "wall clock", "score": 0.01}],
-    "agrees_with_name": true
+    "vision_model_name": "grandfather_clock",
+    "agrees_with_name": true,
+    "name_from": "vision model"
   },
   "relationships": [{"type": "touches", "target": "a0030"}]
 }
 ```
 
-(The numbers above are illustrative.)
+The numbers in this example are not from a real sheet.
 
 | Field | Meaning |
 |---|---|
-| `id` | Stable within one run: `a0001` is pixel value 1 in `id_map.png` |
-| `name` | Unique on the sheet (`chair`, `chair_2`, ...). `label` is the same without the counter. Both are `null` when nothing named the asset |
-| `category` | One of terrain, structure, vegetation, decoration, furniture, item, character, creature, vehicle, effect, ui, text, other, unknown |
-| `bbox` | Tight box in sheet pixels |
-| `unit_box` | When a unit is known: the box of whole units the asset needs, never smaller than one unit. `on_lattice` is true when it lies on cell lines, false when it was fitted round a freely placed sprite |
-| `grid` | The cells the asset touches |
-| `shape`, `mask` | `rect` for a filled rectangle; otherwise `mask.runs` lists `[y, x, length]` rows of pixels |
-| `parts` | Boxes of the separate pieces, when the asset is not one connected blob |
-| `confidence.boundary` | 0 to 1: how sure the outline is. `pixel_evidence` and `model_grouping` show where it came from |
-| `confidence.identity` | 0 to 1: how sure the name is |
-| `uncertain` | True when the boundary confidence is below 0.6 or the identity is a guess |
-| `uncertainty` | The specific doubts, in words |
-| `second_opinion` | With `--hints clip`: the classifier's ranked guesses and whether the chosen name matches one of the top three. `null` otherwise |
+| `id` | The identifier. It is stable in one run. `a0001` is pixel value 1 in `id_map.png` |
+| `name` | The name. It is unique on the sheet (`chair`, `chair_2`). It is `null` when the asset has no name |
+| `label` | The name without the counter. It is `null` when the asset has no name |
+| `category` | One of: terrain, structure, vegetation, decoration, furniture, item, character, creature, vehicle, effect, ui, text, other, unknown |
+| `bbox` | The smallest box around the asset, in sheet pixels |
+| `unit_box` | When there is a unit: the box of full units that the asset needs. The minimum is one unit. `on_lattice` is true when the box is on cell lines. It is false when the tool put the box around a sprite that is not on the lattice |
+| `grid` | The cells that the asset touches |
+| `shape`, `mask` | `rect` is a full rectangle. For other shapes, `mask.runs` gives rows of pixels as `[y, x, length]` |
+| `parts` | The boxes of the pieces, when the asset is not one connected blob |
+| `confidence.boundary` | 0 to 1: the confidence in the outline. `pixel_evidence` and `model_grouping` show the source of the value |
+| `confidence.identity` | 0 to 1: the confidence in the name |
+| `uncertain` | True when the boundary confidence is less than 0.6, or when the name is not reliable |
+| `uncertainty` | The reasons, as text |
+| `second_opinion` | With `--hints clip`: the words from the CLIP model with their scores. `agrees_with_name` shows if the name from the vision model agrees with one of the three best words. `name_from` shows which model gave the name. Without `--hints clip`, the value is `null` |
 | `relationships` | `touches`, `duplicate_of`, `similar_to`, `member_of` |
 
 ### Groups
 
-`groups` collects animations, variant sets, terrain sets, composites and kits named by the
-model, and `similar_pixels` sets found by comparing same-sized assets.
+`groups` contains the sets that the model found: animations, variants, terrain sets,
+composites and kits. It also contains `similar_pixels` sets. The tool finds these when it
+compares assets of the same size.
 
 ### Analysis
 
-`analysis.unit` records the unit used, whether it was given or inferred, and a `check` of
-how well the sheet fits it. `analysis.pixel_scale` is the enlargement factor found (2 for
-art drawn at half size). `analysis.labeler` names the backend, the model, the hints model
-and any problems. `analysis.notes` holds warnings about the sheet as a whole.
+| Field | Contents |
+|---|---|
+| `analysis.unit` | The unit, its source (you or the tool), and a `check` that shows how well the sheet agrees with it |
+| `analysis.pixel_scale` | The scale of the art. The value is 2 when each drawn pixel is 2 x 2 pixels on the sheet |
+| `analysis.labeler` | The labeler, the model, the hints model and the problems |
+| `analysis.notes` | The warnings about the full sheet |
