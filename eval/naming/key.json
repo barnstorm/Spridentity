@@ -1,0 +1,7 @@
+{
+ "A": "clip-vit-l14",
+ "B": "minicpm-v+clip-hints",
+ "C": "minicpm-v",
+ "D": "clip-vit-h14",
+ "E": "combined"
+}

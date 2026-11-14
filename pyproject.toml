@@ -1,0 +1,27 @@
+[project]
+name = "spridentity"
+version = "0.1.0"
+description = "Find, outline and name the individual assets on a pixel-art sprite sheet"
+requires-python = ">=3.10"
+dependencies = ["numpy", "scipy", "pillow>=10.1"]
+
+[project.optional-dependencies]
+label = ["anthropic>=1.0"]
+clip = ["torch", "open_clip_torch"]
+dev = ["pytest"]
+
+[project.scripts]
+spridentity = "spridentity.__main__:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["spridentity"]
+
+[tool.setuptools.package-data]
+spridentity = ["vocab.txt"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

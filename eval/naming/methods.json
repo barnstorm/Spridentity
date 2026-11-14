@@ -1,0 +1,1863 @@
+{
+ "furniture": {
+  "a0001": {
+   "minicpm-v": "wooden table",
+   "clip-vit-l14": "dresser",
+   "clip-vit-h14": "drawer",
+   "minicpm-v+clip-hints": "wooden table",
+   "combined": "wooden table"
+  },
+  "a0002": {
+   "minicpm-v": "wooden table",
+   "clip-vit-l14": "stool",
+   "clip-vit-h14": "chair",
+   "minicpm-v+clip-hints": "wooden table",
+   "combined": "chair"
+  },
+  "a0003": {
+   "minicpm-v": "wooden cabinet",
+   "clip-vit-l14": "cupboard",
+   "clip-vit-h14": "cabinet",
+   "minicpm-v+clip-hints": "brown cabinet",
+   "combined": "brown cabinet"
+  },
+  "a0004": {
+   "minicpm-v": "suitcase",
+   "clip-vit-l14": "chair",
+   "clip-vit-h14": "chair",
+   "minicpm-v+clip-hints": "suitcase",
+   "combined": "chair"
+  },
+  "a0005": {
+   "minicpm-v": "chair",
+   "clip-vit-l14": "chair",
+   "clip-vit-h14": "chair",
+   "minicpm-v+clip-hints": "chair",
+   "combined": "chair"
+  },
+  "a0006": {
+   "minicpm-v": "chair",
+   "clip-vit-l14": "chair",
+   "clip-vit-h14": "chair",
+   "minicpm-v+clip-hints": "chair",
+   "combined": "chair"
+  },
+  "a0007": {
+   "minicpm-v": "wooden bench",
+   "clip-vit-l14": "chair",
+   "clip-vit-h14": "stool",
+   "minicpm-v+clip-hints": "wooden bench",
+   "combined": "stool"
+  },
+  "a0008": {
+   "minicpm-v": "wooden table",
+   "clip-vit-l14": "stool",
+   "clip-vit-h14": "chair",
+   "minicpm-v+clip-hints": "wooden table",
+   "combined": "chair"
+  },
+  "a0009": {
+   "minicpm-v": "wooden table",
+   "clip-vit-l14": "chair",
+   "clip-vit-h14": "chair",
+   "minicpm-v+clip-hints": "wooden table",
+   "combined": "chair"
+  },
+  "a0010": {
+   "minicpm-v": "wooden barrel",
+   "clip-vit-l14": "stool",
+   "clip-vit-h14": "stool",
+   "minicpm-v+clip-hints": "brown barrel",
+   "combined": "brown barrel"
+  },
+  "a0011": {
+   "minicpm-v": "rug",
+   "clip-vit-l14": "stool",
+   "clip-vit-h14": "chair",
+   "minicpm-v+clip-hints": "rug",
+   "combined": "rug"
+  },
+  "a0012": {
+   "minicpm-v": "wooden chest",
+   "clip-vit-l14": "cross",
+   "clip-vit-h14": "cross",
+   "minicpm-v+clip-hints": "wooden chest",
+   "combined": "wooden chest"
+  },
+  "a0013": {
+   "minicpm-v": "wooden table",
+   "clip-vit-l14": "desk",
+   "clip-vit-h14": "side table",
+   "minicpm-v+clip-hints": "wooden table",
+   "combined": "wooden table"
+  },
+  "a0014": {
+   "minicpm-v": "bookcase",
+   "clip-vit-l14": "cupboard",
+   "clip-vit-h14": "drawer",
+   "minicpm-v+clip-hints": "bookcase",
+   "combined": "bookcase"
+  },
+  "a0015": {
+   "minicpm-v": "wooden table",
+   "clip-vit-l14": "dining table",
+   "clip-vit-h14": "stool",
+   "minicpm-v+clip-hints": "wooden table",
+   "combined": "wooden table"
+  },
+  "a0016": {
+   "minicpm-v": "wooden table",
+   "clip-vit-l14": "scroll",
+   "clip-vit-h14": "scroll",
+   "minicpm-v+clip-hints": "wooden table",
+   "combined": "scroll"
+  },
+  "a0017": {
+   "minicpm-v": "wooden table",
+   "clip-vit-l14": "log",
+   "clip-vit-h14": "scroll",
+   "minicpm-v+clip-hints": "wooden table",
+   "combined": "wooden table"
+  },
+  "a0018": {
+   "minicpm-v": "rug",
+   "clip-vit-l14": "shield",
+   "clip-vit-h14": "blood stain",
+   "minicpm-v+clip-hints": "red square",
+   "combined": "red square"
+  },
+  "a0019": {
+   "minicpm-v": "wooden table",
+   "clip-vit-l14": "cupboard",
+   "clip-vit-h14": "drawer",
+   "minicpm-v+clip-hints": "wooden table",
+   "combined": "drawer"
+  },
+  "a0020": {
+   "minicpm-v": "bookcase",
+   "clip-vit-l14": "bookshelf",
+   "clip-vit-h14": "bookcase",
+   "minicpm-v+clip-hints": "bookcase",
+   "combined": "bookcase"
+  },
+  "a0021": {
+   "minicpm-v": "bookcase",
+   "clip-vit-l14": "log",
+   "clip-vit-h14": "log",
+   "minicpm-v+clip-hints": "glass",
+   "combined": "glass"
+  },
+  "a0022": {
+   "minicpm-v": "bookcase",
+   "clip-vit-l14": "bookcase",
+   "clip-vit-h14": "bookcase",
+   "minicpm-v+clip-hints": "bookcase",
+   "combined": "bookcase"
+  },
+  "a0023": {
+   "minicpm-v": "brown square",
+   "clip-vit-l14": "wooden box",
+   "clip-vit-h14": "floor tile",
+   "minicpm-v+clip-hints": "brown square",
+   "combined": "brown square"
+  },
+  "a0024": {
+   "minicpm-v": "rug",
+   "clip-vit-l14": "rug",
+   "clip-vit-h14": "rug",
+   "minicpm-v+clip-hints": "brown rug",
+   "combined": "brown rug"
+  },
+  "a0025": {
+   "minicpm-v": "wooden table",
+   "clip-vit-l14": "stool",
+   "clip-vit-h14": "drawer",
+   "minicpm-v+clip-hints": "brown cupboard",
+   "combined": "brown cupboard"
+  },
+  "a0026": {
+   "minicpm-v": "chest of drawers",
+   "clip-vit-l14": "dresser",
+   "clip-vit-h14": "chest of drawers",
+   "minicpm-v+clip-hints": "chest of drawers",
+   "combined": "chest of drawers"
+  },
+  "a0027": {
+   "minicpm-v": "chest",
+   "clip-vit-l14": "stool",
+   "clip-vit-h14": "cupboard",
+   "minicpm-v+clip-hints": "brown cabinet",
+   "combined": "brown cabinet"
+  },
+  "a0028": {
+   "minicpm-v": "wooden broom",
+   "clip-vit-l14": "coat rack",
+   "clip-vit-h14": "sword",
+   "minicpm-v+clip-hints": "wooden sword",
+   "combined": "wooden sword"
+  },
+  "a0029": {
+   "minicpm-v": "clock",
+   "clip-vit-l14": "grandfather clock",
+   "clip-vit-h14": "grandfather clock",
+   "minicpm-v+clip-hints": "grandfather clock",
+   "combined": "grandfather clock"
+  },
+  "a0030": {
+   "minicpm-v": "milkshake machine",
+   "clip-vit-l14": "hat stand",
+   "clip-vit-h14": "floor lamp",
+   "minicpm-v+clip-hints": "hat stand",
+   "combined": "hat stand"
+  },
+  "a0031": {
+   "minicpm-v": "brown couch",
+   "clip-vit-l14": "mirror",
+   "clip-vit-h14": "mirror",
+   "minicpm-v+clip-hints": "mirror",
+   "combined": "mirror"
+  },
+  "a0032": {
+   "minicpm-v": "wooden table",
+   "clip-vit-l14": "anvil",
+   "clip-vit-h14": "wood stove",
+   "minicpm-v+clip-hints": "wooden stove",
+   "combined": "wooden stove"
+  },
+  "a0033": {
+   "minicpm-v": "armchair",
+   "clip-vit-l14": "armchair",
+   "clip-vit-h14": "armchair",
+   "minicpm-v+clip-hints": "pixel couch",
+   "combined": "pixel couch"
+  },
+  "a0034": {
+   "minicpm-v": "cactus",
+   "clip-vit-l14": "potted plant",
+   "clip-vit-h14": "potted plant",
+   "minicpm-v+clip-hints": "cactus pot",
+   "combined": "cactus pot"
+  },
+  "a0035": {
+   "minicpm-v": "couch",
+   "clip-vit-l14": "sofa",
+   "clip-vit-h14": "sofa",
+   "minicpm-v+clip-hints": "couch",
+   "combined": "couch"
+  },
+  "a0036": {
+   "minicpm-v": "couch",
+   "clip-vit-l14": "sofa",
+   "clip-vit-h14": "sofa",
+   "minicpm-v+clip-hints": "pixel couch",
+   "combined": "pixel couch"
+  },
+  "a0037": {
+   "minicpm-v": "armchair",
+   "clip-vit-l14": "armchair",
+   "clip-vit-h14": "armchair",
+   "minicpm-v+clip-hints": "pixel armchair",
+   "combined": "pixel armchair"
+  },
+  "a0038": {
+   "minicpm-v": "armchair",
+   "clip-vit-l14": "armchair",
+   "clip-vit-h14": "armchair",
+   "minicpm-v+clip-hints": "pixel couch",
+   "combined": "armchair"
+  },
+  "a0039": {
+   "minicpm-v": "chair",
+   "clip-vit-l14": "armchair",
+   "clip-vit-h14": "armchair",
+   "minicpm-v+clip-hints": "brown couch",
+   "combined": "brown couch"
+  },
+  "a0040": {
+   "minicpm-v": "wooden crate",
+   "clip-vit-l14": "backpack",
+   "clip-vit-h14": "bag",
+   "minicpm-v+clip-hints": "wooden trunk",
+   "combined": "bag"
+  },
+  "a0041": {
+   "minicpm-v": "stove",
+   "clip-vit-l14": "chest of drawers",
+   "clip-vit-h14": "drawer",
+   "minicpm-v+clip-hints": "stove",
+   "combined": "stove"
+  },
+  "a0042": {
+   "minicpm-v": "couch",
+   "clip-vit-l14": "kitchen counter",
+   "clip-vit-h14": "drawer",
+   "minicpm-v+clip-hints": "brown counter",
+   "combined": "brown counter"
+  },
+  "a0043": {
+   "minicpm-v": "oven",
+   "clip-vit-l14": "oven",
+   "clip-vit-h14": "oven",
+   "minicpm-v+clip-hints": "oven",
+   "combined": "oven"
+  },
+  "a0044": {
+   "minicpm-v": "backpack",
+   "clip-vit-l14": "refrigerator",
+   "clip-vit-h14": "drawer",
+   "minicpm-v+clip-hints": "chest",
+   "combined": "drawer"
+  },
+  "a0045": {
+   "minicpm-v": "wooden rail",
+   "clip-vit-l14": "coat rack",
+   "clip-vit-h14": "coat rack",
+   "minicpm-v+clip-hints": "spatula",
+   "combined": "coat rack"
+  },
+  "a0046": {
+   "minicpm-v": "wooden bowl",
+   "clip-vit-l14": "chest of drawers",
+   "clip-vit-h14": "log",
+   "minicpm-v+clip-hints": "wooden box",
+   "combined": "wooden box"
+  },
+  "a0047": {
+   "minicpm-v": "wooden bench",
+   "clip-vit-l14": "toilet",
+   "clip-vit-h14": "toilet",
+   "minicpm-v+clip-hints": "toilet",
+   "combined": "toilet"
+  },
+  "a0048": {
+   "minicpm-v": "lamp",
+   "clip-vit-l14": "candle",
+   "clip-vit-h14": "cup",
+   "minicpm-v+clip-hints": "lamp",
+   "combined": "lamp"
+  },
+  "a0049": {
+   "minicpm-v": "stove",
+   "clip-vit-l14": "hat stand",
+   "clip-vit-h14": "trunk",
+   "minicpm-v+clip-hints": "stool",
+   "combined": "stool"
+  },
+  "a0050": {
+   "minicpm-v": "stove",
+   "clip-vit-l14": "stool",
+   "clip-vit-h14": "stool",
+   "minicpm-v+clip-hints": "stool",
+   "combined": "stool"
+  },
+  "a0051": {
+   "minicpm-v": "bathtub",
+   "clip-vit-l14": "bathtub",
+   "clip-vit-h14": "bathtub",
+   "minicpm-v+clip-hints": "bathtub",
+   "combined": "bathtub"
+  },
+  "a0052": {
+   "minicpm-v": "tv",
+   "clip-vit-l14": "desk",
+   "clip-vit-h14": "desk",
+   "minicpm-v+clip-hints": "tv",
+   "combined": "desk"
+  }
+ },
+ "town": {
+  "a0001": {
+   "minicpm-v": "blue water",
+   "clip-vit-l14": "floor tile",
+   "clip-vit-h14": "wall",
+   "minicpm-v+clip-hints": "blue water",
+   "combined": "blue water"
+  },
+  "a0002": {
+   "minicpm-v": "water tile",
+   "clip-vit-l14": "door",
+   "clip-vit-h14": "wall",
+   "minicpm-v+clip-hints": "blue water",
+   "combined": "wall"
+  },
+  "a0003": {
+   "minicpm-v": "brick wall",
+   "clip-vit-l14": "brick wall",
+   "clip-vit-h14": "wall",
+   "minicpm-v+clip-hints": "brick wall",
+   "combined": "brick wall"
+  },
+  "a0004": {
+   "minicpm-v": "wooden plank",
+   "clip-vit-l14": "cupboard",
+   "clip-vit-h14": "wall",
+   "minicpm-v+clip-hints": "wooden planks",
+   "combined": "wall"
+  },
+  "a0005": {
+   "minicpm-v": "grass tile",
+   "clip-vit-l14": "stone wall",
+   "clip-vit-h14": "banner",
+   "minicpm-v+clip-hints": "grass tile",
+   "combined": "grass tile"
+  },
+  "a0006": {
+   "minicpm-v": "brown tile",
+   "clip-vit-l14": "sand",
+   "clip-vit-h14": "sand",
+   "minicpm-v+clip-hints": "brown tile",
+   "combined": "sand"
+  },
+  "a0007": {
+   "minicpm-v": "wooden railing",
+   "clip-vit-l14": "rug",
+   "clip-vit-h14": "blanket",
+   "minicpm-v+clip-hints": "horizontal stripes",
+   "combined": "horizontal stripes"
+  },
+  "a0008": {
+   "minicpm-v": "wooden barrel",
+   "clip-vit-l14": "wooden box",
+   "clip-vit-h14": "wooden fence",
+   "minicpm-v+clip-hints": "wooden stripes",
+   "combined": "wooden fence"
+  },
+  "a0009": {
+   "minicpm-v": "wooden railing",
+   "clip-vit-l14": "chest of drawers",
+   "clip-vit-h14": "wooden box",
+   "minicpm-v+clip-hints": "wooden crate",
+   "combined": "wooden crate"
+  },
+  "a0010": {
+   "minicpm-v": "brick wall",
+   "clip-vit-l14": "brick wall",
+   "clip-vit-h14": "wall",
+   "minicpm-v+clip-hints": "brick wall",
+   "combined": "brick wall"
+  },
+  "a0011": {
+   "minicpm-v": "stone wall",
+   "clip-vit-l14": "shadow",
+   "clip-vit-h14": "blanket",
+   "minicpm-v+clip-hints": "stone wall",
+   "combined": "stone wall"
+  },
+  "a0012": {
+   "minicpm-v": "window",
+   "clip-vit-l14": "house",
+   "clip-vit-h14": "window",
+   "minicpm-v+clip-hints": "window",
+   "combined": "window"
+  },
+  "a0013": {
+   "minicpm-v": "bookshelf",
+   "clip-vit-l14": "bookshelf",
+   "clip-vit-h14": "bookshelf",
+   "minicpm-v+clip-hints": "bookshelf",
+   "combined": "bookshelf"
+  },
+  "a0014": {
+   "minicpm-v": "stone wall",
+   "clip-vit-l14": "keyboard",
+   "clip-vit-h14": "keyboard",
+   "minicpm-v+clip-hints": "stone wall",
+   "combined": "stone wall"
+  },
+  "a0015": {
+   "minicpm-v": "brown dirt",
+   "clip-vit-l14": "crack in the ground",
+   "clip-vit-h14": "dirt patch",
+   "minicpm-v+clip-hints": "dirt patch",
+   "combined": "dirt patch"
+  },
+  "a0016": {
+   "minicpm-v": "stone wall",
+   "clip-vit-l14": "stone wall",
+   "clip-vit-h14": "wall",
+   "minicpm-v+clip-hints": "stone wall",
+   "combined": "stone wall"
+  },
+  "a0017": {
+   "minicpm-v": "rock",
+   "clip-vit-l14": "sand",
+   "clip-vit-h14": "sand",
+   "minicpm-v+clip-hints": "rock",
+   "combined": "sand"
+  },
+  "a0018": {
+   "minicpm-v": "stone wall",
+   "clip-vit-l14": "snow",
+   "clip-vit-h14": "snow",
+   "minicpm-v+clip-hints": "stone wall",
+   "combined": "snow"
+  },
+  "a0019": {
+   "minicpm-v": "grass tile",
+   "clip-vit-l14": "grass",
+   "clip-vit-h14": "log",
+   "minicpm-v+clip-hints": "dirt patch",
+   "combined": "dirt patch"
+  },
+  "a0020": {
+   "minicpm-v": "purple flower",
+   "clip-vit-l14": "vine",
+   "clip-vit-h14": "flowers",
+   "minicpm-v+clip-hints": "purple flower",
+   "combined": "purple flower"
+  },
+  "a0021": {
+   "minicpm-v": "water tile",
+   "clip-vit-l14": "water",
+   "clip-vit-h14": "blanket",
+   "minicpm-v+clip-hints": "water tile",
+   "combined": "water tile"
+  },
+  "a0022": {
+   "minicpm-v": "blue river",
+   "clip-vit-l14": "scroll",
+   "clip-vit-h14": "curtain",
+   "minicpm-v+clip-hints": "blue stripes",
+   "combined": "blue stripes"
+  },
+  "a0023": {
+   "minicpm-v": "torch",
+   "clip-vit-l14": "fireplace",
+   "clip-vit-h14": "sand",
+   "minicpm-v+clip-hints": "dirt patch",
+   "combined": "dirt patch"
+  },
+  "a0024": {
+   "minicpm-v": "fire",
+   "clip-vit-l14": "torch",
+   "clip-vit-h14": "torch",
+   "minicpm-v+clip-hints": "torch",
+   "combined": "torch"
+  },
+  "a0025": {
+   "minicpm-v": "grass tile",
+   "clip-vit-l14": "floor tile",
+   "clip-vit-h14": "grass",
+   "minicpm-v+clip-hints": "grass tile",
+   "combined": "grass tile"
+  },
+  "a0026": {
+   "minicpm-v": "stone wall",
+   "clip-vit-l14": "floor tile",
+   "clip-vit-h14": "keyboard",
+   "minicpm-v+clip-hints": "stone wall",
+   "combined": "keyboard"
+  },
+  "a0027": {
+   "minicpm-v": "water tile",
+   "clip-vit-l14": "carpet",
+   "clip-vit-h14": "banner",
+   "minicpm-v+clip-hints": "water tile",
+   "combined": "water tile"
+  },
+  "a0028": {
+   "minicpm-v": "grass tile",
+   "clip-vit-l14": "grass",
+   "clip-vit-h14": "blanket",
+   "minicpm-v+clip-hints": "grass tile",
+   "combined": "grass tile"
+  },
+  "a0029": {
+   "minicpm-v": "red rug",
+   "clip-vit-l14": "rug",
+   "clip-vit-h14": "rug",
+   "minicpm-v+clip-hints": "red rug",
+   "combined": "red rug"
+  },
+  "a0030": {
+   "minicpm-v": "snow tile",
+   "clip-vit-l14": "floor tile",
+   "clip-vit-h14": "snow",
+   "minicpm-v+clip-hints": "snow tile",
+   "combined": "snow tile"
+  },
+  "a0031": {
+   "minicpm-v": "tree",
+   "clip-vit-l14": "tree",
+   "clip-vit-h14": "tree",
+   "minicpm-v+clip-hints": "tree",
+   "combined": "tree"
+  },
+  "a0032": {
+   "minicpm-v": "pixel tree",
+   "clip-vit-l14": "pine tree",
+   "clip-vit-h14": "pine tree",
+   "minicpm-v+clip-hints": "pixel tree",
+   "combined": "pixel tree"
+  },
+  "a0033": {
+   "minicpm-v": "roof tile",
+   "clip-vit-l14": "roof",
+   "clip-vit-h14": "roof",
+   "minicpm-v+clip-hints": "red wooden wall",
+   "combined": "red wooden wall"
+  },
+  "a0034": {
+   "minicpm-v": "grass block",
+   "clip-vit-l14": "globe",
+   "clip-vit-h14": "boulder",
+   "minicpm-v+clip-hints": "green block",
+   "combined": "boulder"
+  },
+  "a0035": {
+   "minicpm-v": "wooden barrel",
+   "clip-vit-l14": "wooden fence",
+   "clip-vit-h14": "barrel",
+   "minicpm-v+clip-hints": "wooden rail",
+   "combined": "wooden rail"
+  },
+  "a0036": {
+   "minicpm-v": "mailbox",
+   "clip-vit-l14": "signpost",
+   "clip-vit-h14": "signpost",
+   "minicpm-v+clip-hints": "mailbox",
+   "combined": "mailbox"
+  },
+  "a0037": {
+   "minicpm-v": "wooden table",
+   "clip-vit-l14": "house",
+   "clip-vit-h14": "window",
+   "minicpm-v+clip-hints": "shelf",
+   "combined": "shelf"
+  },
+  "a0038": {
+   "minicpm-v": "wooden barrel",
+   "clip-vit-l14": "barrel",
+   "clip-vit-h14": "barrel",
+   "minicpm-v+clip-hints": "wooden box",
+   "combined": "wooden box"
+  },
+  "a0039": {
+   "minicpm-v": "wooden box",
+   "clip-vit-l14": "crate",
+   "clip-vit-h14": "wooden box",
+   "minicpm-v+clip-hints": "wooden box",
+   "combined": "wooden box"
+  },
+  "a0040": {
+   "minicpm-v": "stone boulder",
+   "clip-vit-l14": "boulder",
+   "clip-vit-h14": "boulder",
+   "minicpm-v+clip-hints": "grey boulder",
+   "combined": "grey boulder"
+  },
+  "a0041": {
+   "minicpm-v": "fireplace",
+   "clip-vit-l14": "door",
+   "clip-vit-h14": "door",
+   "minicpm-v+clip-hints": "door",
+   "combined": "door"
+  },
+  "a0042": {
+   "minicpm-v": "sand tile",
+   "clip-vit-l14": "floor tile",
+   "clip-vit-h14": "sand",
+   "minicpm-v+clip-hints": "sand tile",
+   "combined": "sand tile"
+  },
+  "a0043": {
+   "minicpm-v": "stone wall",
+   "clip-vit-l14": "floor tile",
+   "clip-vit-h14": "keyboard",
+   "minicpm-v+clip-hints": "stone wall",
+   "combined": "keyboard"
+  },
+  "a0044": {
+   "minicpm-v": "wooden plank",
+   "clip-vit-l14": "floor tile",
+   "clip-vit-h14": "wooden fence",
+   "minicpm-v+clip-hints": "wooden plank",
+   "combined": "wooden fence"
+  },
+  "a0045": {
+   "minicpm-v": "grass tile",
+   "clip-vit-l14": "grass",
+   "clip-vit-h14": "hedge",
+   "minicpm-v+clip-hints": "grass tile",
+   "combined": "grass tile"
+  },
+  "a0046": {
+   "minicpm-v": "shelf",
+   "clip-vit-l14": "bookshelf",
+   "clip-vit-h14": "shelf",
+   "minicpm-v+clip-hints": "shelf",
+   "combined": "shelf"
+  },
+  "a0047": {
+   "minicpm-v": "water bucket",
+   "clip-vit-l14": "potion",
+   "clip-vit-h14": "potion",
+   "minicpm-v+clip-hints": "water bucket",
+   "combined": "water bucket"
+  },
+  "a0048": {
+   "minicpm-v": "wooden table",
+   "clip-vit-l14": "desk",
+   "clip-vit-h14": "stool",
+   "minicpm-v+clip-hints": "desk",
+   "combined": "stool"
+  },
+  "a0049": {
+   "minicpm-v": "potted plant",
+   "clip-vit-l14": "potted plant",
+   "clip-vit-h14": "potted plant",
+   "minicpm-v+clip-hints": "potted plant",
+   "combined": "potted plant"
+  },
+  "a0050": {
+   "minicpm-v": "lamp",
+   "clip-vit-l14": "street lamp",
+   "clip-vit-h14": "lamp",
+   "minicpm-v+clip-hints": "lamp",
+   "combined": "lamp"
+  },
+  "a0051": {
+   "minicpm-v": "chest",
+   "clip-vit-l14": "drawer",
+   "clip-vit-h14": "drawer",
+   "minicpm-v+clip-hints": "chest of drawers",
+   "combined": "chest of drawers"
+  },
+  "a0052": {
+   "minicpm-v": "wood frame",
+   "clip-vit-l14": "picture frame",
+   "clip-vit-h14": "drawer",
+   "minicpm-v+clip-hints": "brown box",
+   "combined": "brown box"
+  },
+  "a0053": {
+   "minicpm-v": "milk bucket",
+   "clip-vit-l14": "bread",
+   "clip-vit-h14": "bread",
+   "minicpm-v+clip-hints": "sand block",
+   "combined": "bread"
+  },
+  "a0054": {
+   "minicpm-v": "wooden cupboard",
+   "clip-vit-l14": "bread",
+   "clip-vit-h14": "log",
+   "minicpm-v+clip-hints": "mushroom",
+   "combined": "log"
+  }
+ },
+ "apocalypse": {
+  "a0001": {
+   "minicpm-v": "pixel art sprite",
+   "clip-vit-l14": "flag",
+   "clip-vit-h14": "flag",
+   "minicpm-v+clip-hints": "checkered square",
+   "combined": "flag"
+  },
+  "a0002": {
+   "minicpm-v": "checkerboard",
+   "clip-vit-l14": "chair",
+   "clip-vit-h14": "blanket",
+   "minicpm-v+clip-hints": "checkerboard",
+   "combined": "blanket"
+  },
+  "a0003": {
+   "minicpm-v": "fence",
+   "clip-vit-l14": "mattress",
+   "clip-vit-h14": "banner",
+   "minicpm-v+clip-hints": "fence",
+   "combined": "fence"
+  },
+  "a0004": {
+   "minicpm-v": "fence",
+   "clip-vit-l14": "mattress",
+   "clip-vit-h14": "banner",
+   "minicpm-v+clip-hints": "fence",
+   "combined": "fence"
+  },
+  "a0005": {
+   "minicpm-v": "door",
+   "clip-vit-l14": "cursor",
+   "clip-vit-h14": "drawer",
+   "minicpm-v+clip-hints": "door frame",
+   "combined": "door frame"
+  },
+  "a0006": {
+   "minicpm-v": "blue ladder",
+   "clip-vit-l14": "floor lamp",
+   "clip-vit-h14": "pipe",
+   "minicpm-v+clip-hints": "blue ladder",
+   "combined": "blue ladder"
+  },
+  "a0007": {
+   "minicpm-v": "blue potion",
+   "clip-vit-l14": "cursor",
+   "clip-vit-h14": "key",
+   "minicpm-v+clip-hints": "blue potion",
+   "combined": "blue potion"
+  },
+  "a0008": {
+   "minicpm-v": "brown square",
+   "clip-vit-l14": "wooden box",
+   "clip-vit-h14": "floor tile",
+   "minicpm-v+clip-hints": "brown square",
+   "combined": "brown square"
+  },
+  "a0009": {
+   "minicpm-v": "wooden bench",
+   "clip-vit-l14": "button",
+   "clip-vit-h14": "floor tile",
+   "minicpm-v+clip-hints": "wooden bench",
+   "combined": "wooden bench"
+  },
+  "a0010": {
+   "minicpm-v": "pixel hoodie",
+   "clip-vit-l14": "soldier",
+   "clip-vit-h14": "soldier",
+   "minicpm-v+clip-hints": "pixel hooded character",
+   "combined": "soldier"
+  },
+  "a0011": {
+   "minicpm-v": "pixel character",
+   "clip-vit-l14": "shotgun",
+   "clip-vit-h14": "soldier",
+   "minicpm-v+clip-hints": "pixel swordsman",
+   "combined": "soldier"
+  },
+  "a0012": {
+   "minicpm-v": "pixel soldier",
+   "clip-vit-l14": "soldier",
+   "clip-vit-h14": "soldier",
+   "minicpm-v+clip-hints": "pixel soldier",
+   "combined": "pixel soldier"
+  },
+  "a0013": {
+   "minicpm-v": "pixel hoodie",
+   "clip-vit-l14": "soldier",
+   "clip-vit-h14": "soldier",
+   "minicpm-v+clip-hints": "pixel hoodie",
+   "combined": "soldier"
+  },
+  "a0014": {
+   "minicpm-v": "hooded person",
+   "clip-vit-l14": "knight",
+   "clip-vit-h14": "knight",
+   "minicpm-v+clip-hints": "hooded person",
+   "combined": "hooded person"
+  },
+  "a0015": {
+   "minicpm-v": "pixel hunter",
+   "clip-vit-l14": "shotgun",
+   "clip-vit-h14": "shotgun",
+   "minicpm-v+clip-hints": "pixel soldier",
+   "combined": "pixel soldier"
+  },
+  "a0016": {
+   "minicpm-v": "pixel boss",
+   "clip-vit-l14": "fish",
+   "clip-vit-h14": "robot",
+   "minicpm-v+clip-hints": "pixel robot",
+   "combined": "pixel robot"
+  },
+  "a0017": {
+   "minicpm-v": "zombie",
+   "clip-vit-l14": "zombie",
+   "clip-vit-h14": "zombie",
+   "minicpm-v+clip-hints": "zombie",
+   "combined": "zombie"
+  },
+  "a0018": {
+   "minicpm-v": "pixel bulldozer",
+   "clip-vit-l14": "skeleton",
+   "clip-vit-h14": "zombie",
+   "minicpm-v+clip-hints": "zombie",
+   "combined": "zombie"
+  },
+  "a0019": {
+   "minicpm-v": "tank",
+   "clip-vit-l14": "hammer",
+   "clip-vit-h14": "monster",
+   "minicpm-v+clip-hints": "tank",
+   "combined": "monster"
+  },
+  "a0020": {
+   "minicpm-v": "ladder",
+   "clip-vit-l14": "rubble",
+   "clip-vit-h14": "monster",
+   "minicpm-v+clip-hints": "ladder",
+   "combined": "ladder"
+  },
+  "a0021": {
+   "minicpm-v": "pixel character",
+   "clip-vit-l14": "shotgun",
+   "clip-vit-h14": "soldier",
+   "minicpm-v+clip-hints": "pixel rifle",
+   "combined": "pixel rifle"
+  },
+  "a0022": {
+   "minicpm-v": "pixel soldier",
+   "clip-vit-l14": "soldier",
+   "clip-vit-h14": "soldier",
+   "minicpm-v+clip-hints": "pixel soldier",
+   "combined": "pixel soldier"
+  },
+  "a0023": {
+   "minicpm-v": "pixel sword",
+   "clip-vit-l14": "gun",
+   "clip-vit-h14": "sword",
+   "minicpm-v+clip-hints": "pixel sword",
+   "combined": "pixel sword"
+  },
+  "a0024": {
+   "minicpm-v": "pixel bear",
+   "clip-vit-l14": "shotgun",
+   "clip-vit-h14": "soldier",
+   "minicpm-v+clip-hints": "pixel bear",
+   "combined": "pixel bear"
+  },
+  "a0025": {
+   "minicpm-v": "pixel boss",
+   "clip-vit-l14": "fish",
+   "clip-vit-h14": "robot",
+   "minicpm-v+clip-hints": "pixel robot",
+   "combined": "pixel robot"
+  },
+  "a0026": {
+   "minicpm-v": "zombie",
+   "clip-vit-l14": "zombie",
+   "clip-vit-h14": "zombie",
+   "minicpm-v+clip-hints": "zombie",
+   "combined": "zombie"
+  },
+  "a0027": {
+   "minicpm-v": "pixel bullet",
+   "clip-vit-l14": "skeleton",
+   "clip-vit-h14": "sword",
+   "minicpm-v+clip-hints": "zombie",
+   "combined": "zombie"
+  },
+  "a0028": {
+   "minicpm-v": "mushroom",
+   "clip-vit-l14": "mushroom",
+   "clip-vit-h14": "mushroom",
+   "minicpm-v+clip-hints": "mushroom",
+   "combined": "mushroom"
+  },
+  "a0029": {
+   "minicpm-v": "character",
+   "clip-vit-l14": "villager",
+   "clip-vit-h14": "man",
+   "minicpm-v+clip-hints": "pixel medic",
+   "combined": "man"
+  },
+  "a0030": {
+   "minicpm-v": "character",
+   "clip-vit-l14": "villager",
+   "clip-vit-h14": "woman",
+   "minicpm-v+clip-hints": "pixel character",
+   "combined": "pixel character"
+  },
+  "a0031": {
+   "minicpm-v": "pixel art character",
+   "clip-vit-l14": "villager",
+   "clip-vit-h14": "man",
+   "minicpm-v+clip-hints": "pixel mountain man",
+   "combined": "pixel mountain man"
+  },
+  "a0032": {
+   "minicpm-v": "hoodie",
+   "clip-vit-l14": "villager",
+   "clip-vit-h14": "man",
+   "minicpm-v+clip-hints": "hoodie",
+   "combined": "man"
+  },
+  "a0033": {
+   "minicpm-v": "pixel hoodie",
+   "clip-vit-l14": "manhole cover",
+   "clip-vit-h14": "man",
+   "minicpm-v+clip-hints": "pixel hoodie",
+   "combined": "man"
+  },
+  "a0034": {
+   "minicpm-v": "pixel minecraft",
+   "clip-vit-l14": "hammer",
+   "clip-vit-h14": "armor",
+   "minicpm-v+clip-hints": "pixel mage",
+   "combined": "pixel mage"
+  },
+  "a0035": {
+   "minicpm-v": "robot",
+   "clip-vit-l14": "soldier",
+   "clip-vit-h14": "gun",
+   "minicpm-v+clip-hints": "robot",
+   "combined": "robot"
+  },
+  "a0036": {
+   "minicpm-v": "green monster",
+   "clip-vit-l14": "skeleton",
+   "clip-vit-h14": "corpse",
+   "minicpm-v+clip-hints": "alien",
+   "combined": "alien"
+  },
+  "a0037": {
+   "minicpm-v": "door",
+   "clip-vit-l14": "shop",
+   "clip-vit-h14": "door",
+   "minicpm-v+clip-hints": "door",
+   "combined": "door"
+  },
+  "a0038": {
+   "minicpm-v": "pixel character",
+   "clip-vit-l14": "shotgun",
+   "clip-vit-h14": "soldier",
+   "minicpm-v+clip-hints": "pixel swordsman",
+   "combined": "soldier"
+  },
+  "a0039": {
+   "minicpm-v": "robot",
+   "clip-vit-l14": "sack",
+   "clip-vit-h14": "monster",
+   "minicpm-v+clip-hints": "robot",
+   "combined": "monster"
+  },
+  "a0040": {
+   "minicpm-v": "green creature",
+   "clip-vit-l14": "helmet",
+   "clip-vit-h14": "gem",
+   "minicpm-v+clip-hints": "green creature",
+   "combined": "green creature"
+  },
+  "a0041": {
+   "minicpm-v": "pixel character",
+   "clip-vit-l14": "soldier",
+   "clip-vit-h14": "knight",
+   "minicpm-v+clip-hints": "pixel character",
+   "combined": "pixel character"
+  },
+  "a0042": {
+   "minicpm-v": "pixel bee",
+   "clip-vit-l14": "hammer",
+   "clip-vit-h14": "armor",
+   "minicpm-v+clip-hints": "pixel bee",
+   "combined": "armor"
+  },
+  "a0043": {
+   "minicpm-v": "robot",
+   "clip-vit-l14": "robot",
+   "clip-vit-h14": "armor",
+   "minicpm-v+clip-hints": "robot",
+   "combined": "robot"
+  },
+  "a0044": {
+   "minicpm-v": "pixel character",
+   "clip-vit-l14": "flag",
+   "clip-vit-h14": "floor tile",
+   "minicpm-v+clip-hints": "blue square",
+   "combined": "blue square"
+  },
+  "a0045": {
+   "minicpm-v": "keyboard",
+   "clip-vit-l14": "oil drum",
+   "clip-vit-h14": "barrel",
+   "minicpm-v+clip-hints": "keyboard",
+   "combined": "barrel"
+  },
+  "a0046": {
+   "minicpm-v": "green plant",
+   "clip-vit-l14": "anvil",
+   "clip-vit-h14": "debris",
+   "minicpm-v+clip-hints": "green plant",
+   "combined": "green plant"
+  },
+  "a0047": {
+   "minicpm-v": "cactus",
+   "clip-vit-l14": "cactus",
+   "clip-vit-h14": "cactus",
+   "minicpm-v+clip-hints": "green cactus",
+   "combined": "green cactus"
+  },
+  "a0048": {
+   "minicpm-v": "pixel character",
+   "clip-vit-l14": "soldier",
+   "clip-vit-h14": "soldier",
+   "minicpm-v+clip-hints": "pixel rifle",
+   "combined": "pixel rifle"
+  },
+  "a0049": {
+   "minicpm-v": "pixel character",
+   "clip-vit-l14": "soldier",
+   "clip-vit-h14": "monster",
+   "minicpm-v+clip-hints": "pixel character",
+   "combined": "pixel character"
+  },
+  "a0050": {
+   "minicpm-v": "green creeper",
+   "clip-vit-l14": "helmet",
+   "clip-vit-h14": "gem",
+   "minicpm-v+clip-hints": "green creature",
+   "combined": "green creature"
+  },
+  "a0051": {
+   "minicpm-v": "pixel character",
+   "clip-vit-l14": "shotgun",
+   "clip-vit-h14": "gun",
+   "minicpm-v+clip-hints": "pixel character",
+   "combined": "pixel character"
+  },
+  "a0052": {
+   "minicpm-v": "sword",
+   "clip-vit-l14": "zombie",
+   "clip-vit-h14": "monster",
+   "minicpm-v+clip-hints": "shield",
+   "combined": "shield"
+  },
+  "a0053": {
+   "minicpm-v": "pixel art sprite",
+   "clip-vit-l14": "axe",
+   "clip-vit-h14": "woman",
+   "minicpm-v+clip-hints": "pixel character",
+   "combined": "pixel character"
+  },
+  "a0054": {
+   "minicpm-v": "pixel bandit",
+   "clip-vit-l14": "axe",
+   "clip-vit-h14": "man",
+   "minicpm-v+clip-hints": "pixel bandit",
+   "combined": "pixel bandit"
+  },
+  "a0055": {
+   "minicpm-v": "pixel clock",
+   "clip-vit-l14": "battery",
+   "clip-vit-h14": "window",
+   "minicpm-v+clip-hints": "circuit",
+   "combined": "circuit"
+  },
+  "a0056": {
+   "minicpm-v": "character",
+   "clip-vit-l14": "snake",
+   "clip-vit-h14": "banner",
+   "minicpm-v+clip-hints": "character",
+   "combined": "character"
+  },
+  "a0057": {
+   "minicpm-v": "golden crown",
+   "clip-vit-l14": "potion",
+   "clip-vit-h14": "jar",
+   "minicpm-v+clip-hints": "glass",
+   "combined": "glass"
+  },
+  "a0058": {
+   "minicpm-v": "cactus",
+   "clip-vit-l14": "cactus",
+   "clip-vit-h14": "vegetable",
+   "minicpm-v+clip-hints": "cactus",
+   "combined": "cactus"
+  },
+  "a0059": {
+   "minicpm-v": "pixel minecraft character",
+   "clip-vit-l14": "villager",
+   "clip-vit-h14": "man",
+   "minicpm-v+clip-hints": "pixel minecraft character",
+   "combined": "pixel minecraft character"
+  },
+  "a0060": {
+   "minicpm-v": "green goblin",
+   "clip-vit-l14": "wrench",
+   "clip-vit-h14": "monster",
+   "minicpm-v+clip-hints": "pixel creature",
+   "combined": "pixel creature"
+  },
+  "a0061": {
+   "minicpm-v": "mushroom",
+   "clip-vit-l14": "fruit",
+   "clip-vit-h14": "backpack",
+   "minicpm-v+clip-hints": "mushroom",
+   "combined": "mushroom"
+  },
+  "a0062": {
+   "minicpm-v": "pixel minecraft character",
+   "clip-vit-l14": "villager",
+   "clip-vit-h14": "man",
+   "minicpm-v+clip-hints": "pixel character",
+   "combined": "pixel character"
+  },
+  "a0063": {
+   "minicpm-v": "robot",
+   "clip-vit-l14": "anvil",
+   "clip-vit-h14": "monster",
+   "minicpm-v+clip-hints": "robot",
+   "combined": "monster"
+  },
+  "a0064": {
+   "minicpm-v": "pixel pirate",
+   "clip-vit-l14": "wizard",
+   "clip-vit-h14": "man",
+   "minicpm-v+clip-hints": "pixel pirate",
+   "combined": "pixel pirate"
+  },
+  "a0065": {
+   "minicpm-v": "door",
+   "clip-vit-l14": "shadow",
+   "clip-vit-h14": "floor tile",
+   "minicpm-v+clip-hints": "blue square",
+   "combined": "blue square"
+  },
+  "a0066": {
+   "minicpm-v": "wall",
+   "clip-vit-l14": "bed",
+   "clip-vit-h14": "floor tile",
+   "minicpm-v+clip-hints": "blue floor tile",
+   "combined": "blue floor tile"
+  },
+  "a0067": {
+   "minicpm-v": "wall",
+   "clip-vit-l14": "floor tile",
+   "clip-vit-h14": "wall",
+   "minicpm-v+clip-hints": "purple wall",
+   "combined": "purple wall"
+  },
+  "a0068": {
+   "minicpm-v": "wood log",
+   "clip-vit-l14": "bread",
+   "clip-vit-h14": "bread",
+   "minicpm-v+clip-hints": "bread sliced",
+   "combined": "bread sliced"
+  },
+  "a0069": {
+   "minicpm-v": "blue car",
+   "clip-vit-l14": "stone wall",
+   "clip-vit-h14": "debris",
+   "minicpm-v+clip-hints": "blue car",
+   "combined": "blue car"
+  },
+  "a0070": {
+   "minicpm-v": "blue box",
+   "clip-vit-l14": "bookshelf",
+   "clip-vit-h14": "window",
+   "minicpm-v+clip-hints": "green square",
+   "combined": "green square"
+  },
+  "a0071": {
+   "minicpm-v": "character",
+   "clip-vit-l14": "meat",
+   "clip-vit-h14": "man",
+   "minicpm-v+clip-hints": "pixel muscle",
+   "combined": "man"
+  },
+  "a0072": {
+   "minicpm-v": "pixel minecraft character",
+   "clip-vit-l14": "soldier",
+   "clip-vit-h14": "man",
+   "minicpm-v+clip-hints": "pixel minecraft character",
+   "combined": "pixel minecraft character"
+  },
+  "a0073": {
+   "minicpm-v": "pixel minecraft",
+   "clip-vit-l14": "villager",
+   "clip-vit-h14": "man",
+   "minicpm-v+clip-hints": "pixel minecraft",
+   "combined": "pixel minecraft"
+  },
+  "a0074": {
+   "minicpm-v": "pixel minecraft",
+   "clip-vit-l14": "shield",
+   "clip-vit-h14": "woman",
+   "minicpm-v+clip-hints": "pixel hooded person",
+   "combined": "pixel hooded person"
+  },
+  "a0075": {
+   "minicpm-v": "pixel hoodie",
+   "clip-vit-l14": "soldier",
+   "clip-vit-h14": "sword",
+   "minicpm-v+clip-hints": "pixel hooded person",
+   "combined": "pixel hooded person"
+  },
+  "a0076": {
+   "minicpm-v": "robot",
+   "clip-vit-l14": "smoke",
+   "clip-vit-h14": "man",
+   "minicpm-v+clip-hints": "robot",
+   "combined": "man"
+  },
+  "a0077": {
+   "minicpm-v": "character",
+   "clip-vit-l14": "hammer",
+   "clip-vit-h14": "man",
+   "minicpm-v+clip-hints": "character",
+   "combined": "character"
+  },
+  "a0078": {
+   "minicpm-v": "thermometer",
+   "clip-vit-l14": "floor lamp",
+   "clip-vit-h14": "pipe",
+   "minicpm-v+clip-hints": "thermometer",
+   "combined": "thermometer"
+  },
+  "a0079": {
+   "minicpm-v": "train car",
+   "clip-vit-l14": "battery",
+   "clip-vit-h14": "ammunition",
+   "minicpm-v+clip-hints": "building",
+   "combined": "building"
+  },
+  "a0080": {
+   "minicpm-v": "vertical barrel",
+   "clip-vit-l14": "floor lamp",
+   "clip-vit-h14": "sword",
+   "minicpm-v+clip-hints": "vertical barrel",
+   "combined": "vertical barrel"
+  },
+  "a0081": {
+   "minicpm-v": "brown wall",
+   "clip-vit-l14": "shop",
+   "clip-vit-h14": "building",
+   "minicpm-v+clip-hints": "brown wall",
+   "combined": "brown wall"
+  },
+  "a0082": {
+   "minicpm-v": "robot brain",
+   "clip-vit-l14": "hole",
+   "clip-vit-h14": "tire",
+   "minicpm-v+clip-hints": "pixel doughnut",
+   "combined": "pixel doughnut"
+  },
+  "a0083": {
+   "minicpm-v": "pixel battle character",
+   "clip-vit-l14": "villager",
+   "clip-vit-h14": "man",
+   "minicpm-v+clip-hints": "pixel battle",
+   "combined": "pixel battle"
+  },
+  "a0084": {
+   "minicpm-v": "pixel cow",
+   "clip-vit-l14": "cow",
+   "clip-vit-h14": "cow",
+   "minicpm-v+clip-hints": "pixel bull",
+   "combined": "cow"
+  },
+  "a0085": {
+   "minicpm-v": "pixel minecraft",
+   "clip-vit-l14": "bandage",
+   "clip-vit-h14": "soldier",
+   "minicpm-v+clip-hints": "pixel character",
+   "combined": "pixel character"
+  },
+  "a0086": {
+   "minicpm-v": "golden block",
+   "clip-vit-l14": "ammunition",
+   "clip-vit-h14": "jar",
+   "minicpm-v+clip-hints": "pixel cup",
+   "combined": "pixel cup"
+  },
+  "a0087": {
+   "minicpm-v": "robot",
+   "clip-vit-l14": "cow",
+   "clip-vit-h14": "cow",
+   "minicpm-v+clip-hints": "pixel bull",
+   "combined": "pixel bull"
+  },
+  "a0088": {
+   "minicpm-v": "chicken",
+   "clip-vit-l14": "chicken",
+   "clip-vit-h14": "chicken",
+   "minicpm-v+clip-hints": "chicken",
+   "combined": "chicken"
+  },
+  "a0089": {
+   "minicpm-v": "winged bee",
+   "clip-vit-l14": "spider",
+   "clip-vit-h14": "monster",
+   "minicpm-v+clip-hints": "winged bee",
+   "combined": "winged bee"
+  },
+  "a0090": {
+   "minicpm-v": "purpleelixir",
+   "clip-vit-l14": "bow",
+   "clip-vit-h14": "bow",
+   "minicpm-v+clip-hints": "purple squiggle",
+   "combined": "purple squiggle"
+  },
+  "a0091": {
+   "minicpm-v": "pixel bee",
+   "clip-vit-l14": "knight",
+   "clip-vit-h14": "man",
+   "minicpm-v+clip-hints": "pixel bee",
+   "combined": "pixel bee"
+  },
+  "a0092": {
+   "minicpm-v": "pixel monkey",
+   "clip-vit-l14": "villager",
+   "clip-vit-h14": "man",
+   "minicpm-v+clip-hints": "pixel monkey",
+   "combined": "man"
+  },
+  "a0093": {
+   "minicpm-v": "orange square",
+   "clip-vit-l14": "pumpkin",
+   "clip-vit-h14": "floor tile",
+   "minicpm-v+clip-hints": "orange square",
+   "combined": "orange square"
+  },
+  "a0094": {
+   "minicpm-v": "robot",
+   "clip-vit-l14": "robot",
+   "clip-vit-h14": "armor",
+   "minicpm-v+clip-hints": "robot",
+   "combined": "robot"
+  },
+  "a0095": {
+   "minicpm-v": "tank",
+   "clip-vit-l14": "cake",
+   "clip-vit-h14": "bag",
+   "minicpm-v+clip-hints": "battery",
+   "combined": "battery"
+  },
+  "a0096": {
+   "minicpm-v": "robot",
+   "clip-vit-l14": "boulder",
+   "clip-vit-h14": "boulder",
+   "minicpm-v+clip-hints": "robot helmet",
+   "combined": "robot helmet"
+  },
+  "a0097": {
+   "minicpm-v": "robot",
+   "clip-vit-l14": "skeleton",
+   "clip-vit-h14": "armor",
+   "minicpm-v+clip-hints": "robot",
+   "combined": "robot"
+  },
+  "a0098": {
+   "minicpm-v": "robot",
+   "clip-vit-l14": "knight",
+   "clip-vit-h14": "armor",
+   "minicpm-v+clip-hints": "robotic raccoon",
+   "combined": "armor"
+  },
+  "a0099": {
+   "minicpm-v": "robot",
+   "clip-vit-l14": "cat",
+   "clip-vit-h14": "cat",
+   "minicpm-v+clip-hints": "pixel cat",
+   "combined": "pixel cat"
+  },
+  "a0100": {
+   "minicpm-v": "pixel bull",
+   "clip-vit-l14": "cow",
+   "clip-vit-h14": "cow",
+   "minicpm-v+clip-hints": "pixel bull",
+   "combined": "cow"
+  },
+  "a0101": {
+   "minicpm-v": "character",
+   "clip-vit-l14": "sack",
+   "clip-vit-h14": "monster",
+   "minicpm-v+clip-hints": "armored character",
+   "combined": "monster"
+  },
+  "a0102": {
+   "minicpm-v": "cross",
+   "clip-vit-l14": "cross",
+   "clip-vit-h14": "cross",
+   "minicpm-v+clip-hints": "cross",
+   "combined": "cross"
+  },
+  "a0103": {
+   "minicpm-v": "blue jar",
+   "clip-vit-l14": "shield",
+   "clip-vit-h14": "jar",
+   "minicpm-v+clip-hints": "blue jar",
+   "combined": "blue jar"
+  },
+  "a0104": {
+   "minicpm-v": "character",
+   "clip-vit-l14": "villager",
+   "clip-vit-h14": "woman",
+   "minicpm-v+clip-hints": "pixel character",
+   "combined": "pixel character"
+  },
+  "a0105": {
+   "minicpm-v": "candles",
+   "clip-vit-l14": "fence",
+   "clip-vit-h14": "ammunition",
+   "minicpm-v+clip-hints": "ammunition",
+   "combined": "ammunition"
+  },
+  "a0106": {
+   "minicpm-v": "door",
+   "clip-vit-l14": "balcony",
+   "clip-vit-h14": "wall",
+   "minicpm-v+clip-hints": "door",
+   "combined": "door"
+  },
+  "a0107": {
+   "minicpm-v": "brown rock",
+   "clip-vit-l14": "sand",
+   "clip-vit-h14": "sand",
+   "minicpm-v+clip-hints": "brown rock",
+   "combined": "sand"
+  },
+  "a0108": {
+   "minicpm-v": "stone wall",
+   "clip-vit-l14": "sand",
+   "clip-vit-h14": "sand",
+   "minicpm-v+clip-hints": "sand block",
+   "combined": "sand block"
+  },
+  "a0109": {
+   "minicpm-v": "train car",
+   "clip-vit-l14": "sand",
+   "clip-vit-h14": "sand",
+   "minicpm-v+clip-hints": "yellow square",
+   "combined": "yellow square"
+  },
+  "a0110": {
+   "minicpm-v": "green mushroom",
+   "clip-vit-l14": "snake",
+   "clip-vit-h14": "snake",
+   "minicpm-v+clip-hints": "green mushroom",
+   "combined": "green mushroom"
+  },
+  "a0111": {
+   "minicpm-v": "robot",
+   "clip-vit-l14": "bat",
+   "clip-vit-h14": "bat",
+   "minicpm-v+clip-hints": "robot",
+   "combined": "bat"
+  },
+  "a0112": {
+   "minicpm-v": "door",
+   "clip-vit-l14": "cupboard",
+   "clip-vit-h14": "shelf",
+   "minicpm-v+clip-hints": "door",
+   "combined": "door"
+  },
+  "a0113": {
+   "minicpm-v": "green diamond",
+   "clip-vit-l14": "cursor",
+   "clip-vit-h14": "cursor",
+   "minicpm-v+clip-hints": "green key",
+   "combined": "cursor"
+  },
+  "a0114": {
+   "minicpm-v": "platform",
+   "clip-vit-l14": "battery",
+   "clip-vit-h14": "counter",
+   "minicpm-v+clip-hints": "platform",
+   "combined": "platform"
+  },
+  "a0115": {
+   "minicpm-v": "door",
+   "clip-vit-l14": "door",
+   "clip-vit-h14": "door",
+   "minicpm-v+clip-hints": "door",
+   "combined": "door"
+  },
+  "a0116": {
+   "minicpm-v": "tank",
+   "clip-vit-l14": "tank",
+   "clip-vit-h14": "tank",
+   "minicpm-v+clip-hints": "tank",
+   "combined": "tank"
+  },
+  "a0117": {
+   "minicpm-v": "robot",
+   "clip-vit-l14": "spider",
+   "clip-vit-h14": "spider",
+   "minicpm-v+clip-hints": "robot spider",
+   "combined": "robot spider"
+  },
+  "a0118": {
+   "minicpm-v": "door",
+   "clip-vit-l14": "smoke",
+   "clip-vit-h14": "hole",
+   "minicpm-v+clip-hints": "purple square",
+   "combined": "hole"
+  },
+  "a0119": {
+   "minicpm-v": "wooden bench",
+   "clip-vit-l14": "stone wall",
+   "clip-vit-h14": "stone wall",
+   "minicpm-v+clip-hints": "stone wall",
+   "combined": "stone wall"
+  },
+  "a0120": {
+   "minicpm-v": "door",
+   "clip-vit-l14": "coffin",
+   "clip-vit-h14": "door",
+   "minicpm-v+clip-hints": "purple square",
+   "combined": "door"
+  },
+  "a0121": {
+   "minicpm-v": "wooden barrel",
+   "clip-vit-l14": "cross",
+   "clip-vit-h14": "picture frame",
+   "minicpm-v+clip-hints": "wooden barrel",
+   "combined": "wooden barrel"
+  },
+  "a0122": {
+   "minicpm-v": "school bus",
+   "clip-vit-l14": "wagon",
+   "clip-vit-h14": "motorcycle",
+   "minicpm-v+clip-hints": "school bus",
+   "combined": "motorcycle"
+  },
+  "a0123": {
+   "minicpm-v": "dirt tile",
+   "clip-vit-l14": "dirt patch",
+   "clip-vit-h14": "dirt patch",
+   "minicpm-v+clip-hints": "dirt patch",
+   "combined": "dirt patch"
+  },
+  "a0124": {
+   "minicpm-v": "sandwich",
+   "clip-vit-l14": "bread",
+   "clip-vit-h14": "log",
+   "minicpm-v+clip-hints": "sandwich",
+   "combined": "sandwich"
+  },
+  "a0125": {
+   "minicpm-v": "door",
+   "clip-vit-l14": "floor tile",
+   "clip-vit-h14": "floor tile",
+   "minicpm-v+clip-hints": "green floor",
+   "combined": "green floor"
+  },
+  "a0126": {
+   "minicpm-v": "truck",
+   "clip-vit-l14": "truck",
+   "clip-vit-h14": "van",
+   "minicpm-v+clip-hints": "truck",
+   "combined": "truck"
+  },
+  "a0127": {
+   "minicpm-v": "truck",
+   "clip-vit-l14": "treasure chest",
+   "clip-vit-h14": "suitcase",
+   "minicpm-v+clip-hints": "orange box",
+   "combined": "orange box"
+  },
+  "a0128": {
+   "minicpm-v": "backpack",
+   "clip-vit-l14": "vending machine",
+   "clip-vit-h14": "suitcase",
+   "minicpm-v+clip-hints": "backpack",
+   "combined": "backpack"
+  },
+  "a0129": {
+   "minicpm-v": "wooden barrel",
+   "clip-vit-l14": "bookcase",
+   "clip-vit-h14": "suitcase",
+   "minicpm-v+clip-hints": "wooden barrel",
+   "combined": "wooden barrel"
+  },
+  "a0130": {
+   "minicpm-v": "wooden bench",
+   "clip-vit-l14": "stone wall",
+   "clip-vit-h14": "stone wall",
+   "minicpm-v+clip-hints": "stone wall",
+   "combined": "stone wall"
+  },
+  "a0131": {
+   "minicpm-v": "frame",
+   "clip-vit-l14": "picture frame",
+   "clip-vit-h14": "mirror",
+   "minicpm-v+clip-hints": "frame",
+   "combined": "frame"
+  },
+  "a0132": {
+   "minicpm-v": "rock",
+   "clip-vit-l14": "suitcase",
+   "clip-vit-h14": "bag",
+   "minicpm-v+clip-hints": "rock",
+   "combined": "rock"
+  },
+  "a0133": {
+   "minicpm-v": "truck",
+   "clip-vit-l14": "van",
+   "clip-vit-h14": "van",
+   "minicpm-v+clip-hints": "truck",
+   "combined": "truck"
+  },
+  "a0134": {
+   "minicpm-v": "character",
+   "clip-vit-l14": "hammer",
+   "clip-vit-h14": "man",
+   "minicpm-v+clip-hints": "muscular bear",
+   "combined": "muscular bear"
+  },
+  "a0135": {
+   "minicpm-v": "character",
+   "clip-vit-l14": "sack",
+   "clip-vit-h14": "man",
+   "minicpm-v+clip-hints": "character",
+   "combined": "character"
+  },
+  "a0136": {
+   "minicpm-v": "water tile",
+   "clip-vit-l14": "floor tile",
+   "clip-vit-h14": "wall",
+   "minicpm-v+clip-hints": "wooden barrel",
+   "combined": "wooden barrel"
+  },
+  "a0137": {
+   "minicpm-v": "road",
+   "clip-vit-l14": "gate",
+   "clip-vit-h14": "carpet",
+   "minicpm-v+clip-hints": "electronic component",
+   "combined": "carpet"
+  },
+  "a0138": {
+   "minicpm-v": "door",
+   "clip-vit-l14": "shop",
+   "clip-vit-h14": "building",
+   "minicpm-v+clip-hints": "door",
+   "combined": "door"
+  },
+  "a0139": {
+   "minicpm-v": "water tile",
+   "clip-vit-l14": "floor tile",
+   "clip-vit-h14": "blanket",
+   "minicpm-v+clip-hints": "wooden bench",
+   "combined": "wooden bench"
+  },
+  "a0140": {
+   "minicpm-v": "wood log",
+   "clip-vit-l14": "barricade",
+   "clip-vit-h14": "trunk",
+   "minicpm-v+clip-hints": "wooden bench",
+   "combined": "wooden bench"
+  },
+  "a0141": {
+   "minicpm-v": "water tile",
+   "clip-vit-l14": "floor tile",
+   "clip-vit-h14": "blanket",
+   "minicpm-v+clip-hints": "wooden bench",
+   "combined": "wooden bench"
+  },
+  "a0142": {
+   "minicpm-v": "robot",
+   "clip-vit-l14": "scrap metal",
+   "clip-vit-h14": "helmet",
+   "minicpm-v+clip-hints": "robot head",
+   "combined": "helmet"
+  },
+  "a0143": {
+   "minicpm-v": "green jar",
+   "clip-vit-l14": "ammunition",
+   "clip-vit-h14": "bottle",
+   "minicpm-v+clip-hints": "green jar",
+   "combined": "green jar"
+  },
+  "a0144": {
+   "minicpm-v": "firehydrant",
+   "clip-vit-l14": "helmet",
+   "clip-vit-h14": "helmet",
+   "minicpm-v+clip-hints": "backpack",
+   "combined": "backpack"
+  },
+  "a0145": {
+   "minicpm-v": "grass tile",
+   "clip-vit-l14": "scroll",
+   "clip-vit-h14": "banner",
+   "minicpm-v+clip-hints": "pixel dirt",
+   "combined": "banner"
+  },
+  "a0146": {
+   "minicpm-v": "wooden barrel",
+   "clip-vit-l14": "smoke",
+   "clip-vit-h14": "door",
+   "minicpm-v+clip-hints": "wooden bowl",
+   "combined": "wooden bowl"
+  },
+  "a0147": {
+   "minicpm-v": "grass tile",
+   "clip-vit-l14": "grass",
+   "clip-vit-h14": "grass",
+   "minicpm-v+clip-hints": "grass tile",
+   "combined": "grass tile"
+  },
+  "a0148": {
+   "minicpm-v": "grass tile",
+   "clip-vit-l14": "anvil",
+   "clip-vit-h14": "debris",
+   "minicpm-v+clip-hints": "grass tile",
+   "combined": "grass tile"
+  },
+  "a0149": {
+   "minicpm-v": "book",
+   "clip-vit-l14": "mattress",
+   "clip-vit-h14": "snow",
+   "minicpm-v+clip-hints": "snow block",
+   "combined": "snow block"
+  },
+  "a0150": {
+   "minicpm-v": "snowball",
+   "clip-vit-l14": "pebbles",
+   "clip-vit-h14": "boulder",
+   "minicpm-v+clip-hints": "white bubble",
+   "combined": "white bubble"
+  },
+  "a0151": {
+   "minicpm-v": "mushroom",
+   "clip-vit-l14": "boulder",
+   "clip-vit-h14": "rock",
+   "minicpm-v+clip-hints": "sack",
+   "combined": "sack"
+  },
+  "a0152": {
+   "minicpm-v": "green plant",
+   "clip-vit-l14": "potted plant",
+   "clip-vit-h14": "potted plant",
+   "minicpm-v+clip-hints": "green plant",
+   "combined": "green plant"
+  },
+  "a0153": {
+   "minicpm-v": "grass tile",
+   "clip-vit-l14": "grass",
+   "clip-vit-h14": "grass",
+   "minicpm-v+clip-hints": "grass tile",
+   "combined": "grass tile"
+  },
+  "a0154": {
+   "minicpm-v": "grass tile",
+   "clip-vit-l14": "grass",
+   "clip-vit-h14": "grass",
+   "minicpm-v+clip-hints": "grass tile",
+   "combined": "grass tile"
+  },
+  "a0155": {
+   "minicpm-v": "grass tile",
+   "clip-vit-l14": "floor tile",
+   "clip-vit-h14": "mirror",
+   "minicpm-v+clip-hints": "grass tile",
+   "combined": "grass tile"
+  },
+  "a0156": {
+   "minicpm-v": "grass tile",
+   "clip-vit-l14": "grass",
+   "clip-vit-h14": "grass",
+   "minicpm-v+clip-hints": "grass tile",
+   "combined": "grass tile"
+  },
+  "a0157": {
+   "minicpm-v": "snow block",
+   "clip-vit-l14": "mattress",
+   "clip-vit-h14": "wall",
+   "minicpm-v+clip-hints": "snow block",
+   "combined": "snow block"
+  },
+  "a0158": {
+   "minicpm-v": "grass tile",
+   "clip-vit-l14": "grass",
+   "clip-vit-h14": "grass",
+   "minicpm-v+clip-hints": "grass tile",
+   "combined": "grass tile"
+  },
+  "a0159": {
+   "minicpm-v": "grass tile",
+   "clip-vit-l14": "grass",
+   "clip-vit-h14": "grass",
+   "minicpm-v+clip-hints": "grass tile",
+   "combined": "grass tile"
+  }
+ }
+}
